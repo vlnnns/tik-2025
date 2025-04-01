@@ -1,0 +1,36 @@
+# .gitignore for Python Projects
+
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore build files
+build/
+dist/
+*.egg-info/
+
+# Ignore IDE configurations
+.vscode/
+.idea/
+
+# Ignore other files
+*.log
+*.sqlite3
+*.db
+*.swp
+*.swo
+*.bak
+
+# Ignore specific files
+*.env
+*.db
+*.sqlite
+*.tgz
+
